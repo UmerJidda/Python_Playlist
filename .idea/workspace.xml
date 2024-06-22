@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3955ea03-59ea-4bb8-bfde-7301f9a63074" name="Changes" comment="hello" />
+    <list default="true" id="3955ea03-59ea-4bb8-bfde-7301f9a63074" name="Changes" comment="Deleted extra files and refactored file location">
+      <change afterPath="$PROJECT_DIR$/Snake_Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -33,7 +37,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.Rock_Paper_Scissors.executor": "Run",
+    "Python.Snake_Game.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -46,6 +52,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study\Other\Python_Playlist" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,7 +75,9 @@
       <updated>1719004850674</updated>
       <workItem from="1719004852161" duration="3251000" />
       <workItem from="1719009450225" duration="15000" />
-      <workItem from="1719012229279" duration="1375000" />
+      <workItem from="1719012229279" duration="1859000" />
+      <workItem from="1719014165139" duration="3000" />
+      <workItem from="1719081902598" duration="6526000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <option name="closed" value="true" />
@@ -114,7 +127,31 @@
       <option name="project" value="LOCAL" />
       <updated>1719013424902</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hello">
+      <option name="closed" value="true" />
+      <created>1719013745039</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719013745039</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hello">
+      <option name="closed" value="true" />
+      <created>1719013810171</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719013810171</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Deleted extra files and refactored file location">
+      <option name="closed" value="true" />
+      <created>1719013994359</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719013994359</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,9 +182,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello" />
+    <MESSAGE value="Deleted extra files and refactored file location" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted extra files and refactored file location" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Playlist$Snake_Game.coverage" NAME="Snake_Game Coverage Results" MODIFIED="1719095455405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Playlist$Rock_Paper_Scissors.coverage" NAME="Rock_Paper_Scissors Coverage Results" MODIFIED="1719007227290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
   </component>
 </project>
