@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3955ea03-59ea-4bb8-bfde-7301f9a63074" name="Changes" comment="Number Guess Game">
+    <list default="true" id="3955ea03-59ea-4bb8-bfde-7301f9a63074" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_25_2024_2_26_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_25_2024_2_26_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.1.dist-info/AUTHORS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.1.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.1.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.1.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/requests/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/requests/__version__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/requests/adapters.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/requests/adapters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/vendor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/vendor.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/pip.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/pip3.12.exe" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/pip3.12.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excel_Automation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Excel_Automation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snake_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Snake_Game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +95,10 @@
       <workItem from="1719501750982" duration="4019000" />
       <workItem from="1719607343730" duration="5010000" />
       <workItem from="1719674193092" duration="5807000" />
-      <workItem from="1719685947350" duration="6413000" />
+      <workItem from="1719685947350" duration="8259000" />
+      <workItem from="1720923400869" duration="1883000" />
+      <workItem from="1720981211652" duration="18000" />
+      <workItem from="1720981976898" duration="484000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <option name="closed" value="true" />
@@ -221,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719265784341</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Simple Excel sheet automation with bar graph">
+      <option name="closed" value="true" />
+      <created>1719696523409</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719696523409</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,11 +255,13 @@
     <MESSAGE value="Snake Game Update" />
     <MESSAGE value="Password Generator and Manager" />
     <MESSAGE value="Number Guess Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Number Guess Game" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="Simple Excel sheet automation with bar graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple Excel sheet automation with bar graph" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Playlist$Password_Generator.coverage" NAME="Password_Generator Coverage Results" MODIFIED="1719262421117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_Playlist$Snake_Game.coverage" NAME="Snake_Game Coverage Results" MODIFIED="1719161168139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Playlist$Snake_Game.coverage" NAME="Snake_Game Coverage Results" MODIFIED="1720925208215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Playlist$Number_guessGame.coverage" NAME="Number_guessGame Coverage Results" MODIFIED="1719263717331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Playlist$Rock_Paper_Scissors.coverage" NAME="Rock_Paper_Scissors Coverage Results" MODIFIED="1719007227290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/Python_Playlist$practice.coverage" NAME="practice Coverage Results" MODIFIED="1719695776047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

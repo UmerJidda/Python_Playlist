@@ -4,8 +4,8 @@ import random
 from pygame.math import Vector2
 
 # Define constants
-cell_size = 40
-cell_number = 20
+
+
 
 class SNAKE:
     def __init__(self):
@@ -93,15 +93,21 @@ class MAIN:
 
 # Initialize Pygame
 pygame.init()
+cell_size = 40
+cell_number = 20
 screen = pygame.display.set_mode((cell_number * cell_size, cell_number * cell_size))
 clock = pygame.time.Clock()
-#apple = pygame.image.load('apple.png').convert_alpha()
-main_game = MAIN()
+
+
+
 
 # Define events
 SCREEN_UPDATE = pygame.USEREVENT
 pygame.time.set_timer(SCREEN_UPDATE, 150)
 game_font = pygame.font.Font(None, 25)
+
+main_game = MAIN()
+
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:

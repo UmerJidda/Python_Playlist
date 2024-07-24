@@ -4,7 +4,7 @@ from openpyxl.chart import BarChart, Reference
 
 # Make changes to the row and column selection according to your requirements
 def process_workbook(filename):
-    # refactor the filename as the file you want to add
+    # refactor the filename if needed
     wb = xl.load_workbook(filename)
     sheet = wb['Sheet1']
 
@@ -21,5 +21,6 @@ def process_workbook(filename):
     sheet.add_chart(chart, 'e2')
 
     wb.save(filename)
+
     
     
