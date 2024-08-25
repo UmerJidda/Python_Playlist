@@ -1,35 +1,64 @@
 import random
-import cv2
+import hashlib
+
+characters = (
+    'abcdefghijklmnopqrstuvwxyz'
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    '0123456789'
+    '!@#$%^&*()-_=+[]{};:\'",.<>?/|\\`~'
+)
 
 
-list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '[', ']', '{', '}', ';', ':', "'", '"', ',', '<', '.', '>', '/', '?', '|', '\\', '`', '~']
-password = ''
-print('Welcome to your password generator and manager')
-y = input('Press\n1 to generate a password\n2 to view all passwords\n3 to exit\n')
-y = int(y)
+def generate_password(length):
+    return ''.join(random.choice(characters) for _ in range(length))
 
-if y == 1:
-    x = input('Enter the length of the password:')
-    x = int(x)
-    for i in range(x):
-        password += random.choice(list)
-    site = input(str('Enter the site name:'))
-    print(password)
+
+def hash_password(password):
+    sha_signature = hashlib.sha256(password.encode()).hexdigest()
+    return sha_signature
+
+
+def save_password(site, password):
     with open('passwords.txt', 'a') as file:
-        file.write(f'{site} : {password}\n')
-        file.close()
-elif y == 2:
-    with open('passwords.txt', 'r') as file:
-        print(file.read())
-        file.close()
-elif y == 3:
-    print('Goodbye')
-    exit()
-
-else:
-    print('Invalid input')
-
-#Password Generator & Manager
+        hashed_password = hash_password(password)
+        file.write(f'{site} : {hashed_password}\n')
 
 
+def view_passwords():
+    try:
+        with open('passwords.txt', 'r') as file:
+            print(file.read())
+    except FileNotFoundError:
+        print("No passwords saved yet.")
 
+
+def main():
+    print('Welcome to your password generator and manager')
+
+    while True:
+        try:
+            choice = int(input('Press\n1 to generate a password\n2 to view all passwords\n3 to exit\n'))
+
+            if choice == 1:
+                length = int(input('Enter the length of the password: '))
+                password = generate_password(length)
+                site = input('Enter the site name: ')
+                print(f'Generated password: {password}')
+                save_password(site, password)
+
+            elif choice == 2:
+                view_passwords()
+
+            elif choice == 3:
+                print('Goodbye')
+                break
+
+            else:
+                print('Invalid input. Please choose a valid option.')
+
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+
+
+if __name__ == "__main__":
+    main()
